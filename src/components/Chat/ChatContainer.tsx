@@ -61,7 +61,7 @@ export const ChatContainer: React.FC = () => {
             <p className="text-2xl text-primary/80">How can I help you today?</p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-4 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-10 mb-8">
             {PREDEFINED_QUESTIONS.map((question) => (
               <ChatQuestion
                 key={question.id}
@@ -75,7 +75,7 @@ export const ChatContainer: React.FC = () => {
         <ChatMessages messages={state.messages} />
       )}
 
-      <div className="sticky bottom-0 pb-4 bg-gradient-to-t from-white via-white">
+      <div className="sticky bottom-0 pb-4 px-4 bg-gradient-to-t from-white via-white">
         <ChatInput onSend={handleSendMessage} />
         {state.isTyping && (
           <div className="text-sm text-gray-500 ml-4">NexenGPT is Responding...</div>
