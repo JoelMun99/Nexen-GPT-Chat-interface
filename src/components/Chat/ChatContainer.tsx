@@ -8,15 +8,15 @@ import { sendMessage } from '../../services/api';
 const PREDEFINED_QUESTIONS = [
   {
     id: 1,
-    text: "Which Courses are offered in Nexen?"
+    text: "Why can I not see my marks on My Students portal?"
   },
   {
     id: 2,
-    text: "What programs does the school of Engineering offer?"
+    text: "I am very close to a first class. Can I get it rounded up?"
   },
   {
     id: 3,
-    text: "What is the History of Nexen University?"
+    text: "I failed my exams.What do I do?"
   }
 ];
 
