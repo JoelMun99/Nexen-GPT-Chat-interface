@@ -35,7 +35,6 @@ This project is a **React-powered** chatbot interface, built to enhance user exp
 2. Install Dependencies
    ```bash
    npm install
-
 3️. Run the Application
    ```bash
    npm start   
