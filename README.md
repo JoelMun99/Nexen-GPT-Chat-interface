@@ -6,7 +6,7 @@ This project is a **React-powered** chatbot interface, built to enhance user exp
 
 ## ✨ Features  
 ✅ **Component-Based Architecture** for better maintainability  
-✅ Scalability – Easily extendable for future enhancements
+✅ **Scalability – Easily extendable for future enhancements
 ✅ **Reusable UI components** for cleaner and structured code  
 ✅ **State Management** with React Hooks (`useState`, `useEffect`)  
 ✅ **Modern UI/UX Design** with optimized styling  
